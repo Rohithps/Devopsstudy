@@ -1,0 +1,14 @@
+---
+- hosts: host1
+  become: yes
+  name: create directory
+  tasks:
+    - name: directory creation
+      command: mkdir /home/ubuntu/playbook
+
+- hosts: host2
+  become: yes
+  name: Installing nginx on host2
+  tasks:
+    - name: creation
+      command: touch test.yaml
