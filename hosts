@@ -1,0 +1,3 @@
+[TEST]
+host1 ansible_ssh_host=15.206.72.164
+host2 ansible_ssh_host=65.1.2.123
